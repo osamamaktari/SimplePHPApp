@@ -27,5 +27,6 @@ $color =isset($_GET['color']) ? htmlspecialchars($_GET['color']) :'blue';
 <body>
     <h1>Hello ,<?php  echo $name;  ?></h1>
        <p style="color: <?php echo $color; ?>;">this is your favorite color</p>
+          <p><a href="index.php">Go Back</a></p>
 </body>
 </html>
