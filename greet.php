@@ -1,9 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
+// We use GET here to retrieve the data passed in the URL query string,
+// allowing us to display the user's name on this greeting page.
 $name = isset($_GET['name']) ? htmlspecialchars($_GET['name']) : 'Guest';
+
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
